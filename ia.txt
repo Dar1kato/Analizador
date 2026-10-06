@@ -1,0 +1,11 @@
+Promts utilizados:
+
+"
+Vas a utilizar Python con FastAPI y uv para crear un backend que reciba un codigo de python y que, conectandose a una api de openAI o Ollama local, analize la complejidad temporal Big-O, Big-Theta y Big-Omega del codigo, y genere una respuesta en formato .txt con el codigo recibidio comentado explicando la complejidad temporal de cada parte del mismo y al final un comentario en bloque detallando las 3 complejidades temporales y explicando el razonamiento. 
+
+Estos son los lineamientos: 
+
+El codigo debe correr usando la pagina de pruebas de endpoints de FastAPI. Debe correr con uv, en un proyecto de python creado con `uv init`. El endpoint debe recibir el codigo de la manera que más le convenga (decidiremos esto juntos). El codigo recibido debe ser analizado por un modelo de inteligencia artificial, ya sea con una API directa de OpenAI o con un modelo local de Ollama (decidiremos esto juntos). LA respuesta de la IA debe ser el mismo codigo recibido, con comentarios en el mismo que ayuden a identificar cual y por qué es de la complejidad temporal que es. Al final del codigo, se debe generar un comentario en bloque que contenga el tiempo calculado en Big-O, Big-Theta y Big-Omega, asi como una explicación del valor recibido. El endpoint debe regresar en formato .txt el codigo comentado de la IA. Si no es posible generar un archio .txt, podemos usar un json (decidiremos esto juntos). Todo debe funcionar en un solo archivo de python llamado main.py. 
+
+Analiza los requerimientos de este script. Antes de empezar a trabajar, decidiremos juntos como proceder con los puntos antes mencionados. Para esto, me darás tu opinion sobre las opciones en todos los aspectos a decidir (qué IA utiliza, como recibir el codigo original y que tipo de archivo generar como respuesta). Con tu analizis te indicaré cual de las opciones para cada punto elegiremos. Despues de eso, me darás un ultimo rundown de lo que se va a generar. Aquí puedes resolver cualquier duda que tengas acerca del script. Finalmente, generarás el archivo siguiendo todos los lineamientos que te indiqué y las decisiones que tomamos juntos.
+"
