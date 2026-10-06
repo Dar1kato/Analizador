@@ -260,27 +260,6 @@ El script levanta el servidor de FastAPI. Una vez en marcha, abre <http://127.0.
 
 ---
 
-## Generar el requirements.txt
-
-Con uv, desde la raíz del proyecto:
-
-```bash
-uv export --no-hashes --no-emit-project -o requirements.txt
-```
-
-- `--no-hashes` produce un archivo más legible (sin hashes de verificación).
-- `--no-emit-project` evita que el propio proyecto aparezca como dependencia.
-
-Alternativa, a partir del `pyproject.toml`:
-
-```bash
-uv pip compile pyproject.toml -o requirements.txt
-```
-
-Vuelve a generarlo cada vez que agregues o quites dependencias.
-
----
-
 ## Estructura del proyecto
 
 ```
