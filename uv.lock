@@ -22,7 +22,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "fastapi", extras = ["standar", "standard"], specifier = ">=0.142.2" },
+    { name = "fastapi", extras = ["standard"], specifier = ">=0.142.2" },
     { name = "openai", specifier = ">=3.24.0" },
 ]
 
